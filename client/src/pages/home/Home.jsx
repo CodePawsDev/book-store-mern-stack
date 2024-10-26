@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Recommend from "./Recommend";
 import TopSellers from "./TopSellers";
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <>
       <Banner />
       <TopSellers />
+      <Recommend />
     </>
   );
 }
